@@ -4,8 +4,8 @@
   "description": "WorkPlus Cordova API docs.",
   "main": "index.js",
   "scripts": {
-    "preDeploy": "gitbook build",
-    "deploy": "npm run preDeploy && gh-pages -d _book"
+    "predeploy": "gitbook build",
+    "deploy": "gh-pages -d _book"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/WorkPlusFE/cordova-docs/issues"
   },
-  "homepage": "https://github.com/WorkPlusFE/cordova-docs#readme",
+  "homepage": "https://github.com/WorkPlusFE/cordova-docs",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
