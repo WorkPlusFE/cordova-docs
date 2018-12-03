@@ -17,7 +17,14 @@
     "api",
     "docs"
   ],
-  "author": "Hejx",
+  "author": {
+    "name": "Hejx",
+    "url": "https://github.com/hejianxian"
+  },
+  "contributors": [{
+    "name": "dasunsy",
+    "url": "https://github.com/dasunsy"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WorkPlusFE/cordova-docs/issues"
