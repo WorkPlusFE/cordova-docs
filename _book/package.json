@@ -1,0 +1,29 @@
+{
+  "name": "cordova-docs",
+  "version": "1.0.0",
+  "description": "WorkPlus Cordova API docs.",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "gitbook build",
+    "deploy": "gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkPlusFE/cordova-docs.git"
+  },
+  "keywords": [
+    "workplus",
+    "cordova",
+    "api",
+    "docs"
+  ],
+  "author": "Hejx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WorkPlusFE/cordova-docs/issues"
+  },
+  "homepage": "https://github.com/WorkPlusFE/cordova-docs",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
