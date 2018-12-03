@@ -1,6 +1,6 @@
-# [WorkPlus Cordova API 说明文档](https://workplusfe.github.io/cordova-docs/)
+# WorkPlus Cordova API 说明文档
 
-WorkPlus Cordova SDK 驻留在 WorkPlus 移动 App 上，为部署在 WorkPlus 应用中心的轻应用提供访问 WorkPlus 移动 App 功能的能力。
+WorkPlus Cordova SDK 驻留在 WorkPlus 移动 App 上，为部署在 WorkPlus 应用中心的轻应用提供访问 WorkPlus 移动 App 功能的能力。[点击查看文档](https://workplusfe.github.io/cordova-docs/)
 
 > 当前版本的 Cordova SDK 依赖的 Cordova 版本是3.8.0。本文只介绍 WorkPlus Cordova API，如果您需要详细了解 Cordova，请参考其官方网站[http://cordova.apache.org/](http://cordova.apache.org/)。
 
