@@ -2,6 +2,7 @@
 
 * [总述](README.md)
 * [使用说明](use_instruction.md)
+* [更新日志](CHANGELOG.md)
 * [图片](Workplus_ImagesPlugin.md)
 * [联系人](Workplus_ContactPlugin.md)
 * [文件](Workplus_FilePlugin.md)

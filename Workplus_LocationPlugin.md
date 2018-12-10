@@ -1,6 +1,7 @@
-### 地理位置信息插件(WorkPlus_Location)
+# 地理位置信息插件(WorkPlus_Location)
 ---
-#### 1. 获取定位信息
+
+## 1. 获取定位信息
 >返回地理位置信息
 
 请求调用示例:
@@ -37,7 +38,7 @@ function getLocation(){
 
 
 
-#### 开启自动签到
+##2. 开启自动签到
 
 ```javascript
         function OpenSignIn(){
@@ -56,7 +57,7 @@ function getLocation(){
 
 
 
-#### 关闭自动签到
+##3. 关闭自动签到
 
 ```javascript
        function CloseSignIn(){

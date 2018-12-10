@@ -1,6 +1,7 @@
-### app native 支付(WorkPlus_Pay)
+# app native 支付(WorkPlus_Pay)
 ---
-#### 1. 微信支付
+
+## 1. 微信支付
 >提供微信支付的能力
 
 请求调用示例:

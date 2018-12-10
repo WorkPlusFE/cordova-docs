@@ -1,6 +1,7 @@
-### Umeeting 会议相关接口(WorkPlus_Umeeting)
+# Umeeting 会议相关接口(WorkPlus_Umeeting)
 ---
-#### 1. 开启会议
+
+## 1. 开启会议
 >Umeeting 开启会议
 
 请求调用示例:
@@ -48,7 +49,7 @@ function startMeeting() {
 
 
 
-#### 2. 加入会议
+## 2. 加入会议
 >Umeeting 加入会议
 >请求调用示例:
 

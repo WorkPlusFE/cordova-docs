@@ -1,6 +1,7 @@
-###公有云插件(WorkPlus_PublicClound)
-***
-####1. 跳转到个人详情页面
+# 公有云插件(WorkPlus_PublicClound)
+---
+
+##1. 跳转到个人详情页面
 >通过轻应用数据，跳转到个人详情页面
 
 请求调用示例:
@@ -43,7 +44,7 @@ function toPersonal(){
 请求返回数据：无
 ```
 
-####2. 获取WorkPlus信息
+##2. 获取WorkPlus信息
 >获取workplus版本信息
 
 请求调用示例:

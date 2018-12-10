@@ -1,6 +1,7 @@
-### 应用市场插件(WorkPlus_AppStore)
+# 应用市场插件(WorkPlus_AppStore)
 ---
-####1. 添加应用
+
+##1. 添加应用
 >添加应用
 
 请求调用示例:
@@ -28,7 +29,7 @@ function installApp(){
 }	
 ```
 
-####2. 原生app 路由跳转(WorkPlus版本3.1.3以上版本使用)
+##2. 原生app 路由跳转(WorkPlus版本3.1.3以上版本使用)
 >根据参数跳转指定app
 
 请求调用示例:

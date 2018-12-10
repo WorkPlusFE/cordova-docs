@@ -21,16 +21,19 @@
     "name": "Hejx",
     "url": "https://github.com/hejianxian"
   },
-  "contributors": [{
-    "name": "dasunsy",
-    "url": "https://github.com/dasunsy"
-  }],
+  "contributors": [
+    {
+      "name": "dasunsy",
+      "url": "https://github.com/dasunsy"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WorkPlusFE/cordova-docs/issues"
   },
   "homepage": "https://github.com/WorkPlusFE/cordova-docs",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.13"
   }
 }

@@ -1,6 +1,7 @@
-###网页的相关插件调用(WorkPlus_WebView)
+# 网页的相关插件调用(WorkPlus_WebView)
 ---
-####1. 打开WorkPlus里已有的html
+
+##1. 打开WorkPlus里已有的html
 >传入相对地址，打开WorkPlus里已有的网页
 
 请求调用示例:
@@ -25,7 +26,7 @@ function openLocalURL(){
 ```
 
 
-####2. 打开一个网页(Workplus 3.1.3以上版本新增 use\_android\_webview参数)
+##2. 打开一个网页(Workplus 3.1.3以上版本新增 use\_android\_webview参数)
 >传入地址，打开WorkPlus网页
 
 请求调用示例:
@@ -64,7 +65,7 @@ function openWebView(){
 请求返回数据：无
 ```
 
-####3. 锁定网页顶部栏
+##3. 锁定网页顶部栏
 >锁定顶部栏，使得顶部栏按钮无效
 
 请求调用示例:
@@ -88,7 +89,7 @@ function navigation(){
 请求返回数据：无
 ```
 
-####4. 更换左侧按钮动作
+##4. 更换左侧按钮动作
 >更换左侧的按钮动作
 
 请求调用示例:
@@ -117,7 +118,7 @@ function back(){
 调用此cordova后，用户点击返回，会弹出一个【想返回，没门】的alert,用户无法返回
 ```
 
-####5. 更换右侧按钮动作(在workplus3.1.3版本之后新增disable参数)
+##5. 更换右侧按钮动作(在workplus3.1.3版本之后新增disable参数)
 >更换右侧的按钮动作
 
 请求调用示例:
@@ -166,7 +167,7 @@ function rightButtons(){
 请求返回数据：无
 ```
 
-####6. 更换头部title
+##6. 更换头部title
 >更换头部title
 
 请求调用示例:
@@ -191,7 +192,7 @@ function title(){
 ```
 
 
-####.7 清除左侧按钮
+##.7 清除左侧按钮
 >清除左侧按钮事件和显示
 
 请求调用示例:
@@ -215,7 +216,7 @@ function clearLeftButton(){
 求返回数据：无
 ```
 
-####8. 清除右侧按钮
+##8. 清除右侧按钮
 >清除右侧按钮事件和显示
 
 请求调用示例:
@@ -239,7 +240,7 @@ function clearRightButtons(){
 求返回数据：无
 ```
 
-####9. 退出webview
+##9. 退出webview
 >关闭整个webview
 
 请求调用示例:
@@ -263,7 +264,7 @@ function exit(){
 求返回数据：无
 ```
 
-####10. 弹出分享对话框
+##10. 弹出分享对话框
 >弹出分享对话框，跳转分享
 
 请求调用示例:
@@ -293,7 +294,7 @@ function share(){
 ```
 
 
-####11. 跳转到workkplus特定页面
+##11. 跳转到workkplus特定页面
 >跳转到workkplus特定页面
 
 
@@ -335,7 +336,7 @@ function toActivity(){
 ```
 
 
-####12. 是否隐藏或显示左侧的按钮和关闭字样
+##12. 是否隐藏或显示左侧的按钮和关闭字样
 >是否隐藏或显示左侧的按钮和关闭字样
 
 请求调用示例:
@@ -371,7 +372,7 @@ function visibleLeftButton(){
 
 <br/>
 
-####13. 更换左侧侧按钮和定义动作(在workplus3.1.3版本之后新增disable参数)
+##13. 更换左侧侧按钮和定义动作(在workplus3.1.3版本之后新增disable参数)
 >更换左侧的按钮动作
 
 请求调用示例:
@@ -420,7 +421,7 @@ function changeLeftButton(){
 请求返回数据：无
 ```
 
-####14. 控制屏幕旋转(WorkPlus版本3.1.3以上版本使用)
+##14. 控制屏幕旋转(WorkPlus版本3.1.3以上版本使用)
 >根据参数控制屏幕横屏显示或者竖屏显示
 
 请求调用示例:
@@ -451,7 +452,7 @@ function changeOrientation(){
 请求返回数据：无
 ```
 
-#### 15. 水印cordova
+## 15. 水印cordova
 
 > 给页面添加水印
 
@@ -497,7 +498,7 @@ function changeOrientation(){
 ```
 
 
-#### 16. 注册/注销摇一摇监听
+## 16. 注册/注销摇一摇监听
 > 注册摇一摇监听
 
 ```javascript
@@ -539,7 +540,7 @@ function unregisterShakeListener() {
 <br/><br/>
 
 
-#### 17. 微信分享(会话/朋友圈)
+## 17. 微信分享(会话/朋友圈)
 > 根据接口直接调起微信分享页面
 
 请求调用示例:

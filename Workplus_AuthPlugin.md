@@ -1,8 +1,8 @@
-###登录用户权限信息插件(WorkPlus_Auth)
+# 登录用户权限信息插件(WorkPlus_Auth)
 ---
 
 
-####1. 获取临时ticket接口
+##1. 获取临时ticket接口
 >为当前登录用户获取一个临时性的ticket
 >
 
@@ -30,7 +30,7 @@ function getUserTicket(){
 
 ```
 
-####2. 获取当前登录用户的accessToken
+##2. 获取当前登录用户的accessToken
 >当前登录用户的accessToken
 >
 
@@ -57,7 +57,7 @@ function getAccessToken(){
 }
 ```
 
-####3. 获取当前app请求后台api地址
+##3. 获取当前app请求后台api地址
 >获取当前app请求后台api地址
 >
 
@@ -84,7 +84,7 @@ function getServerInfo(){
 }
 ```
 
-####4. 告诉WorkPlus当前的accessToken已过期
+##4. 告诉WorkPlus当前的accessToken已过期
 >通过轻应用告知当前accessToken过期，workplus推出当前登录状态
 >
 
@@ -109,7 +109,7 @@ function onAccessTokenOverdue(){
 app弹框请求退出重新登录
 ```
 
-####5. 获取当前的租户id
+##5. 获取当前的租户id
 >获取当前租户id，即域id
 >
 
@@ -139,7 +139,7 @@ function getTenantID(){
 }
 ```
 
-####6. 获取当前登录用户最基本详情
+##6. 获取当前登录用户最基本详情
 >获取当前登录用户最基本详情，包括token，用户信息
 >
 

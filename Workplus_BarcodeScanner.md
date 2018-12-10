@@ -1,4 +1,4 @@
-### 扫描二维码插件(WorkPlus_BarcodeScanner）
+## 扫描二维码插件(WorkPlus_BarcodeScanner）
 ***
 >调用相机扫描二维码
 
@@ -22,6 +22,4 @@ function scanner(){
 请求输入数据：无
 请求返回数据：无
 ```
-
-
 <br/>

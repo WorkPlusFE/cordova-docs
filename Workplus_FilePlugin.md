@@ -1,6 +1,6 @@
-### 文件插件(WorkPlus_Files)
+# 文件插件(WorkPlus_Files)
 ---
-#### 1. 单选文件
+## 1. 单选文件
 >打开WorkPlus文件选择管理器，选择单个文件返回
 
 请求调用示例:
@@ -27,7 +27,7 @@ function selectFile	(){
 }]	
 ```
 
-#### 2. 多选文件
+## 2. 多选文件
 >打开WorkPlus文件选择管理器，选择多个文件返回
 
 请求调用示例:
@@ -60,7 +60,7 @@ function selectFiles(){
 <br/>
 
 
-#### 3. 打开邮件附件
+## 3. 打开邮件附件
 >打开指定路径的文件, 并预览
 
 请求调用示例:
@@ -93,7 +93,7 @@ function openEmailAttachment(){
 <br/>
 
 
-#### 4. 获取邮件附件目录
+## 4. 获取邮件附件目录
 >获取当前登录帐号的邮件附件目录
 
 请求调用示例:
@@ -123,7 +123,7 @@ function getEmailAttachmentDir(){
 
 <br/>
 
-#### 5. 新增文件选择接口(返回带mediaId方式)(Workplus 3.1.3版本以上使用)
+## 5. 新增文件选择接口(返回带mediaId方式)(Workplus 3.1.3版本以上使用)
 >打开WorkPlus文件选择管理器，根据参数状态决定单选或多选文件，并上传该文件到后台，返回值带mediaId
 >请求调用示例:
 
@@ -164,7 +164,7 @@ function getEmailAttachmentDir(){
 
 <br/>
 
-#### 6. 获取 workplus 文件目录路径(Workplus 3.1.4版本以上使用)
+## 6. 获取 workplus 文件目录路径(Workplus 3.1.4版本以上使用)
 
 ```javascript
 
@@ -195,7 +195,7 @@ custom: 轻应用自定义的用户目录, 如传入参数"custom" : "abc", app 
 
 ```
 
-####7. 打开文件详情
+##7. 打开文件详情
 >通过指定 mediaId, fileName 等参数, 打开文件详情界面
 
 ```javascript
@@ -229,7 +229,7 @@ function openFileDetail() {
         
 ```
 
-####8. 本地打开文件
+##8. 本地打开文件
 >原生打开文件(pdf, excel, word, ppt 等)
 
 ```javascript
@@ -251,7 +251,7 @@ function readFile() {
 
 
 
-####9. 判断文件是否存在
+##9. 判断文件是否存在
 >判断指定路径的文件是否存在
 
 ```javascript

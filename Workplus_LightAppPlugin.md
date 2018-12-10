@@ -1,6 +1,7 @@
-###获取App配置插件(WorkPlus_LightApp)
-***
-#### 1. 获取app请求的api地址
+# 获取App配置插件(WorkPlus_LightApp)
+---
+
+## 1. 获取app请求的api地址
 >获取app请求的api地址
 
 请求调用示例:

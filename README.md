@@ -1,4 +1,4 @@
-# WorkPlus Cordova API 说明文档
+## WorkPlus Cordova API 说明文档
 
 WorkPlus Cordova SDK 驻留在 WorkPlus 移动 App 上，为部署在 WorkPlus 应用中心的轻应用提供访问 WorkPlus 移动 App 功能的能力。[点击查看文档](https://workplusfe.github.io/cordova-docs/)
 
@@ -6,7 +6,7 @@ WorkPlus Cordova SDK 驻留在 WorkPlus 移动 App 上，为部署在 WorkPlus �
 
 使用 WorkPlus 扫一扫，查看在线例子：
 
-<img src="https://github.com/WorkPlusFE/codash/blob/master/design/qr-code.png" alt="cordova example" />
+<img src="https://github.com/WorkPlusFE/codash/raw/master/design/qr-code.png" alt="cordova example" />
 
 ### 如何参与文档编辑
 
