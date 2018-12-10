@@ -1,6 +1,7 @@
-### 事件日志接口(WorkPlus_EventLog)
+# 事件日志接口(WorkPlus_EventLog)
 ---
-#### 1. 获取当前登陆用户今天在线时长
+
+## 1. 获取当前登陆用户今天在线时长
 请求调用示例:
 
 ```javascript
@@ -30,7 +31,7 @@ function getTodayUseDuration() {
 
 
 
-#### 2. 获取事件日志数据
+## 2. 获取事件日志数据
 >根据传参条件, 返回对应的事件日志数据. 
 
 

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>地理位置 · GitBook</title>
+        <title>更新日志 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Workplus_DeviceInfoPlugin.html" />
+    <link rel="next" href="Workplus_ImagesPlugin.html" />
     
     
-    <link rel="prev" href="Workplus_WebViewPlugin.html" />
+    <link rel="prev" href="use_instruction.html" />
     
 
     </head>
@@ -119,7 +119,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="CHANGELOG.html">
+        <li class="chapter active" data-level="1.3" data-path="CHANGELOG.html">
             
                 <a href="CHANGELOG.html">
             
@@ -197,7 +197,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.9" data-path="Workplus_LocationPlugin.html">
+        <li class="chapter " data-level="1.9" data-path="Workplus_LocationPlugin.html">
             
                 <a href="Workplus_LocationPlugin.html">
             
@@ -383,7 +383,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >地理位置</a>
+        <a href="." >更新日志</a>
     </h1>
 </div>
 
@@ -398,71 +398,12 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-pagetop-navbar"><ul><li><span class="title-icon "></span><a href="#&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;workpluslocation"><b></b>&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;(WorkPlus_Location)</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;"><b></b>1. &#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;</a></li><li><span class="title-icon "></span><a href="#2-&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><b></b>2. &#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;</a></li><li><span class="title-icon "></span><a href="#3-&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><b></b>3. &#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;</a></li></ul></ul></div><a href="#&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;workpluslocation" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;workpluslocation"><a name="&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;workpluslocation" class="anchor-navigation-ex-anchor" href="#&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;workpluslocation"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;&#x63D2;&#x4EF6;(WorkPlus_Location)</h1>
-<hr>
-<h2 id="1-&#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;"><a name="1-&#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;" class="anchor-navigation-ex-anchor" href="#1-&#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x83B7;&#x53D6;&#x5B9A;&#x4F4D;&#x4FE1;&#x606F;</h2>
-<blockquote>
-<p>&#x8FD4;&#x56DE;&#x5730;&#x7406;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;</p>
-</blockquote>
-<p>&#x8BF7;&#x6C42;&#x8C03;&#x7528;&#x793A;&#x4F8B;:</p>
-<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getLocation</span>(<span class="hljs-params"></span>)</span>{
- cordova.exec(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
-            alert(<span class="hljs-built_in">JSON</span>.stringify(result, <span class="hljs-literal">null</span>, <span class="hljs-number">4</span>));
-        },
-        <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
-            alert(<span class="hljs-string">&quot;&#x8C03;&#x7528;&#x5931;&#x8D25;&quot;</span>);
-        },
-        <span class="hljs-string">&quot;WorkPlus_Location&quot;</span>,
-        <span class="hljs-string">&quot;getLocation&quot;</span>, 
-        []
-        );
-}
-
-&#x8BF4;&#x660E;&#xFF1A;
-&#x8BF7;&#x6C42;&#x8F93;&#x5165;&#x6570;&#x636E;&#xFF1A;&#x65E0;
-&#x8BF7;&#x6C42;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#xFF1A;
-{
-    <span class="hljs-string">&quot;latitude&quot;</span>: <span class="hljs-string">&quot;xxxx&quot;</span>,
-    <span class="hljs-string">&quot;longitude&quot;</span>:<span class="hljs-string">&quot;xxx&quot;</span>,
-    <span class="hljs-string">&quot;address&quot;</span> : <span class="hljs-string">&quot;&#x5E7F;&#x5DDE;&#x5E02;&#x5929;&#x6CB3;&#x533A; xxx &#x8857;&#x9053; xxx&quot;</span>  <span class="hljs-comment">//&#x5177;&#x4F53;&#x5730;&#x5740;&#x4FE1;&#x606F;,</span>
-    <span class="hljs-string">&quot;city&quot;</span> : <span class="hljs-string">&quot;xxx&quot;</span>, <span class="hljs-comment">//&#x5E7F;&#x5DDE;&#x5E02;</span>
-    <span class="hljs-string">&quot;district&quot;</span> : <span class="hljs-string">&quot;xxx&quot;</span>,  <span class="hljs-comment">//&#x5929;&#x6CB3;&#x533A;</span>
-    <span class="hljs-string">&quot;street&quot;</span> : <span class="hljs-string">&quot;xxx&quot;</span>,    <span class="hljs-comment">//&#x7FF0;&#x666F;&#x8DEF;</span>
-    <span class="hljs-string">&quot;aoiName&quot;</span> : xxx        <span class="hljs-comment">//&#x91D1;&#x661F;&#x5927;&#x53A6;</span>
-}
+                                <h2 id="&#x66F4;&#x65B0;&#x65E5;&#x5FD7;"><a name="&#x66F4;&#x65B0;&#x65E5;&#x5FD7;" class="anchor-navigation-ex-anchor" href="#&#x66F4;&#x65B0;&#x65E5;&#x5FD7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</h2>
+<!-- ex_nonav -->
+<h4 id="2018-xx-xx"><a name="2018-xx-xx" class="anchor-navigation-ex-anchor" href="#2018-xx-xx"><i class="fa fa-link" aria-hidden="true"></i></a>2018-xx-xx</h4>
+<p>Hook</p>
+<pre><code>* [action](link) description
 </code></pre>
-<p><br></p>
-<h2 id="2-&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><a name="2-&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;" class="anchor-navigation-ex-anchor" href="#2-&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x5F00;&#x542F;&#x81EA;&#x52A8;&#x7B7E;&#x5230;</h2>
-<pre><code class="lang-javascript">        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">OpenSignIn</span>(<span class="hljs-params"></span>)</span>{
-            cordova.exec(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
-                         alert(<span class="hljs-string">&quot;&#x5F00;&#x542F;&#x6210;&#x529F;&quot;</span>);
-                         },
-                         <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
-                         alert(<span class="hljs-string">&quot;&#x8C03;&#x7528;&#x5931;&#x8D25;&quot;</span>);
-                         },
-                         <span class="hljs-string">&quot;WorkPlus_Location&quot;</span>,
-                         <span class="hljs-string">&quot;enableOrgSignIn&quot;</span>,[]);
-        }
-</code></pre>
-<blockquote>
-<p>&#x8C03;&#x7528;&#x6B64;&#x63A5;&#x53E3;&#xFF0C;&#x5F00;&#x542F;&#x7684;&#x7EC4;&#x7EC7;&#x4E3A;&#x5F53;&#x524D;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x7EC4;&#x7EC7;</p>
-</blockquote>
-<h2 id="3-&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><a name="3-&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;" class="anchor-navigation-ex-anchor" href="#3-&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x5173;&#x95ED;&#x81EA;&#x52A8;&#x7B7E;&#x5230;</h2>
-<pre><code class="lang-javascript">       <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">CloseSignIn</span>(<span class="hljs-params"></span>)</span>{
-            cordova.exec(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">result</span>) </span>{
-                         alert(result);
-                         },
-                         <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
-                         alert(<span class="hljs-string">&quot;&#x8C03;&#x7528;&#x5931;&#x8D25;&quot;</span>);
-                         },
-                         <span class="hljs-string">&quot;WorkPlus_Location&quot;</span>,
-                         <span class="hljs-string">&quot;disableOrgSignIn&quot;</span>,[]);
-        }
-</code></pre>
-<blockquote>
-<p>&#x8C03;&#x7528;&#x6B64;&#x63A5;&#x53E3;&#xFF0C;&#x5173;&#x95ED;&#x7684;&#x7EC4;&#x7EC7;&#x4E3A;&#x5F53;&#x524D;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x7EC4;&#x7EC7;</p>
-</blockquote>
-
                                 
                                 </section>
                             
@@ -489,12 +430,12 @@
 
             
                 
-                <a href="Workplus_WebViewPlugin.html" class="navigation navigation-prev " aria-label="Previous page: 网页">
+                <a href="use_instruction.html" class="navigation navigation-prev " aria-label="Previous page: 使用说明">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Workplus_DeviceInfoPlugin.html" class="navigation navigation-next " aria-label="Next page: 设备信息">
+                <a href="Workplus_ImagesPlugin.html" class="navigation navigation-next " aria-label="Next page: 图片">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -505,7 +446,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"地理位置","level":"1.9","depth":1,"next":{"title":"设备信息","level":"1.10","depth":1,"path":"Workplus_DeviceInfoPlugin.md","ref":"Workplus_DeviceInfoPlugin.md","articles":[]},"previous":{"title":"网页","level":"1.8","depth":1,"path":"Workplus_WebViewPlugin.md","ref":"Workplus_WebViewPlugin.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing","anchor-navigation-ex"],"pluginsConfig":{"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"pageTop","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Workplus_LocationPlugin.md","mtime":"2018-12-10T03:06:44.262Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-10T03:12:05.583Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"更新日志","level":"1.3","depth":1,"next":{"title":"图片","level":"1.4","depth":1,"path":"Workplus_ImagesPlugin.md","ref":"Workplus_ImagesPlugin.md","articles":[]},"previous":{"title":"使用说明","level":"1.2","depth":1,"path":"use_instruction.md","ref":"use_instruction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing","anchor-navigation-ex"],"pluginsConfig":{"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"pageTop","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":true},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CHANGELOG.md","mtime":"2018-12-10T03:00:40.111Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-12-10T03:12:05.583Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
