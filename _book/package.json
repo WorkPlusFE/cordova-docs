@@ -4,8 +4,10 @@
   "description": "WorkPlus Cordova API docs.",
   "main": "index.js",
   "scripts": {
+    "start": "gitbook serve",
     "predeploy": "gitbook build",
-    "deploy": "gh-pages -d _book"
+    "deploy": "gh-pages -d _book",
+    "build:pdf": "gitbook pdf ./ ./pdf/workplus.pdf"
   },
   "repository": {
     "type": "git",

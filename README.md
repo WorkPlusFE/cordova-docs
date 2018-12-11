@@ -25,6 +25,22 @@ npm i
 npm run deploy
 ```
 
+### 如何导出PDF
+
+生成电子书 (epub, mobi, pdf) 时需要ebook-convert。在 Mac 下，使用 homebrew 安装 calibre 即可:
+
+```bash
+brew install calibre
+```
+
+安装成功后，进入项目根目录，执行:
+
+```bash
+npm run export:pdf
+```
+
+文件将会生成到`./pdf`文件夹下。
+
 ### 文档维护者
 
 * [dasunsy](https://github.com/dasunsy)

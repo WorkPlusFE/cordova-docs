@@ -1,13 +1,11 @@
 {
+    "title": "WorkPlus Cordova API 文档",
+    "author": "workplus",
     "plugins": [
         "-sharing",
         "anchor-navigation-ex"
     ],
     "pluginsConfig": {
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-        },
         "anchor-navigation-ex": {
             "showLevel": false,
             "associatedWithSummary": false,
