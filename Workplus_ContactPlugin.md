@@ -596,7 +596,7 @@ function createDiscussionChat(){
 <br/>
 
 ##12. 打开应用聊天界面（WorkPlus版本3.4.1以上版本使用）
->通过应用id和orgI的，打开改组织下某个应用聊天界面
+>通过应用id和orgId的，打开改组织下某个应用聊天界面
 >
 
 请求调用示例:

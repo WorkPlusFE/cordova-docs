@@ -452,7 +452,7 @@ function changeOrientation(){
 请求返回数据：无
 ```
 
-## 15. 水印cordova
+## 15. 添加水印
 
 > 给页面添加水印
 
@@ -485,34 +485,34 @@ function changeOrientation(){
 请求返回数据：无
 ```
 
-> 移除水印
+## 16. 移除水印
 
 ```javascript
-         cordova.exec(function(winParam) {
-                         },
-                         function(error) {
-                         alert("调用失败");
-                         },
-                         "WorkPlus_WebView",
-                         "removeWaterMask",[]);
+    cordova.exec(function(winParam) {
+        },
+    function(error) {
+        alert("调用失败");
+    },
+    "WorkPlus_WebView",
+    "removeWaterMask",[]);
 ```
 
 
-## 16. 注册/注销摇一摇监听
+## 17. 注册摇一摇监听
 > 注册摇一摇监听
 
 ```javascript
 function registerShakeListener() {
-            cordova.exec(function (result) {
-                alert(JSON.stringify(result));
-            },
-                function (error) {
-                    alert("调用失败");
+    cordova.exec(function (result) {
+        alert(JSON.stringify(result));
+    },
+    function (error) {
+        alert("调用失败");
 
-                },
-                "WorkPlus_WebView",
-                "registerShakeListener", []);
-        }
+    },
+    "WorkPlus_WebView",
+    "registerShakeListener", []);
+}
 ```
 
 前端需要实现`onWorkplusShake()` 方法, 在该处执行自己的业务, 摇一摇后将在该方法回调.
@@ -521,26 +521,26 @@ function registerShakeListener() {
 
 
 
-> 注销摇一摇监听
+## 18. 注销摇一摇监听
 
 ```javascript
 function unregisterShakeListener() {
-            cordova.exec(function (result) {
-                alert(JSON.stringify(result));
-            },
-                function (error) {
-                    alert("调用失败");
+    cordova.exec(function (result) {
+        alert(JSON.stringify(result));
+    },
+    function (error) {
+        alert("调用失败");
 
-                },
-                "WorkPlus_WebView",
-                "unregisterShakeListener", []);
-        }
+    },
+    "WorkPlus_WebView",
+    "unregisterShakeListener", []);
+}
 ```
 
 <br/><br/>
 
 
-## 17. 微信分享(会话/朋友圈)
+## 19. 微信分享(会话/朋友圈)
 > 根据接口直接调起微信分享页面
 
 请求调用示例:

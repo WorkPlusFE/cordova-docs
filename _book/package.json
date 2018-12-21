@@ -7,7 +7,7 @@
     "start": "gitbook serve",
     "predeploy": "gitbook build",
     "deploy": "gh-pages -d _book",
-    "build:pdf": "gitbook pdf ./ ./pdf/workplus.pdf"
+    "export:pdf": "node scripts/build-pdf.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,10 @@
   },
   "homepage": "https://github.com/WorkPlusFE/cordova-docs",
   "dependencies": {
+    "chalk": "^2.4.1",
     "gh-pages": "^2.0.1",
-    "gitbook-plugin-anchor-navigation-ex": "^1.0.13"
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.13",
+    "moment": "^2.22.2",
+    "shelljs": "^0.8.3"
   }
 }
