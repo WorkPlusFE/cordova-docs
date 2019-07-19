@@ -778,3 +778,42 @@ function selectDiscussionMembers() {
 
 
 
+####17. 获取选人缓存数据(WorkPlus版本4.1.0)
+>适用于由原生选人界面跳转到 html 前端, 然后 html 前端获取选人数据的场景
+
+请求调用示例:
+
+```javascript
+function selectContactsCache() {
+            cordova.exec(function (result) {
+                alert(JSON.stringify(result, null, 4));
+            },
+                function (error) {
+                    alert("调用失败");
+                },
+                "WorkPlus_Contact",
+                "selectContactsCache",
+                []
+            );
+        }
+
+请求输入数据:
+无  
+
+请求返回数据：
+
+{
+	"user":[{...}, {...}],
+	"employee": [{...}, {...}]
+}
+//具体模型字段参照 1. getEmployeesFromCurrentOrg
+
+//该缓存数据在 webview 关闭时, 会自动做清除处理
+
+```
+
+<br/>
+
+
+
+
