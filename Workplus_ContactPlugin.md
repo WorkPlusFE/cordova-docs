@@ -730,3 +730,51 @@ function selectContacts() {
 <br/>
 
 
+
+####16. 群组选人界面（WorkPlus版本3.6.0以上版本使用）
+>根据群组 id, 打开群组成员界面, 并进行选择
+
+请求调用示例:
+
+```javascript
+function selectDiscussionMembers() {
+    cordova.exec(function (result) {
+        alert(JSON.stringify(result, null, 4));
+    },
+        function (error) {
+            alert("调用失败");
+        },
+        "WorkPlus_Contact",
+        "selectDiscussionMembers",
+        [{
+            "discussion_id": "7e41cf3691344b28a9dd2035bac47477",
+            "members_selected": []
+        }
+        ]
+    );
+}
+
+请求输入数据:
+{
+	"discussion_id": "7e41cf3691344b28a9dd2035bac47477", //群组 id
+	"members_selected": [
+		{接口返回来的返回来的 User 数据},
+		{接口返回来的返回来的 User 数据}
+	] 
+}   
+
+请求返回数据：
+
+{
+	"members": [
+		{},{}...
+	]
+}
+
+
+```
+
+<br/>
+
+
+
