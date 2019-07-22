@@ -732,7 +732,7 @@ function selectContacts() {
 
 
 
-####16. 群组选人界面（WorkPlus版本3.6.0以上版本使用）
+##16. 群组选人界面（WorkPlus版本3.6.0以上版本使用）
 >根据群组 id, 打开群组成员界面, 并进行选择
 
 请求调用示例:
@@ -779,7 +779,7 @@ function selectDiscussionMembers() {
 
 
 
-####17. 获取选人缓存数据(WorkPlus版本4.1.0)
+##17. 获取选人缓存数据(WorkPlus版本4.1.0)
 >适用于由原生选人界面跳转到 html 前端, 然后 html 前端获取选人数据的场景
 
 请求调用示例:
