@@ -588,7 +588,7 @@ type为image时 image为分享的图片链接或者是base64
 
 *该方法无需调用 Cordova 接口*
 
-在html页面的 <head> 标签里添加该标签即可，其中content的内容必须为 HEX 格式（以井号开头）。
+在html页面的 `<head>` 标签里添加该标签即可，其中content的内容必须为 HEX 格式（以井号开头）。
 
 ```html
 <meta name="_navigation_color" content="#194c7b" />
