@@ -711,10 +711,12 @@ function selectContacts() {
 请求输入数据:
  [
  {
- 	"filterSenior": 1,
- 	//1 表示过滤高管, 0 表示不过滤,默认为 1,
- 	"maxCount" : 10
- 	//选人最大数量, 最小为1, 默认不限制数量
+ 	"filterSenior": 1,  //1 表示过滤高管, 0 表示不过滤,默认为 1,
+ 	"maxCount" : 10, 	//选人最大数量, 最小为1, 默认不限制数量,
+ 	
+ 	"selectedUsers":[{...}, {...}],  //已选择的users
+ 	
+ 	"selectedEmployees": [{...}, {...}] //已选择的employees
  }
  ]      
 
