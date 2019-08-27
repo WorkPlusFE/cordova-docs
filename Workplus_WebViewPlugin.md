@@ -582,4 +582,14 @@ type为webpage时 url字段为分享的链接
 type为image时 image为分享的图片链接或者是base64
 ```
 
+## 20. 修改顶部栏颜色
 
+> 时间和电量的那一栏（最顶上），而Header部分的颜色，需要在后台添加应用的时候设置
+
+*该方法无需调用 Cordova 接口*
+
+在html页面的 `<head>` 标签里添加该标签即可，其中content的内容必须为 HEX 格式（以井号开头）。
+
+```html
+<meta name="_navigation_color" content="#194c7b" />
+```
