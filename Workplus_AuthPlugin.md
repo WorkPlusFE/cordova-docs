@@ -185,4 +185,28 @@ function getLoginUserInfo(){
 ```
 
 
+
+##7. 人脸识别
+>唤起人脸识别验证(具体 sdk 根据当前打包配置)
+>
+
+请求调用示例:
+
+```javascript
+function faceBizValid() {
+            cordova.exec(function (result) {
+                    alert(JSON.stringify(result, null, 4));
+            },
+                function (error) {
+                    alert("调用失败");
+                },
+                "WorkPlus_Auth",
+                "faceBioAuth", [{}]);
+        }
+说明：
+请求输入数据：无
+请求返回数据：无
+```
+
+
 <br/>
