@@ -9,6 +9,7 @@ os:
   - osx
 install:
   - npm install
+  - npm install gitbook-cli
 script:
   - npm run predeploy
 deploy:
