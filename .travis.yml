@@ -7,6 +7,10 @@ node_js: stable
 os:
   - linux
   - osx
+install:
+  - npm install
+script:
+  - npm run predeploy
 deploy:
   provider: pages
   skip_cleanup: true
