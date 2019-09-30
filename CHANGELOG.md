@@ -6,3 +6,9 @@
 
 * WorkPlus_Contact#selectContacts 新增 `selectedUsers`, `selectedEmployees`参数, 始支持复选
 * 新增 WorkPlus_Auth#faceBioAuth, 集成人脸识别后支持cordova调用人脸识别
+
+
+#### 20190930
+
+* WorkPlus\_FilePlugin#showFile 新增 `filePath`参数, 始支持打开本地文件
+* 新增 WorkPlus\_AudioAndVideoPlugin 与 WorkPlus\_OCR 接口
