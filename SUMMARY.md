@@ -17,6 +17,7 @@
 * [公有云](Workplus_PublicCloud.md)
 * [支付](Workplus_PayPlugin.md)
 * [网络连接信息](Workplus_NetInfo.md)
+* [OCR识别](Workplus_OCR.md)
 * [邮箱](Workplus_Email.md)
 * [事件日志](Workplus_EventLog.md)
 * [Umeeting 会议](Workplus_Umeeting.md)
