@@ -12,3 +12,8 @@
 
 * WorkPlus\_FilePlugin#showFile 新增 `filePath`参数, 始支持打开本地文件
 * 新增 WorkPlus\_AudioAndVideoPlugin 与 WorkPlus\_OCR 接口
+
+
+#### 201901125
+
+* WorkPlus\_WebView#share 新增 `dicrectly `参数, 始支持直接分享(暂时只提供直接分享内部联系人)
