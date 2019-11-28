@@ -213,7 +213,7 @@ function clearLeftButton(){
 
 说明：
 请求输入数据：无
-求返回数据：无
+请求返回数据：无
 ```
 
 ##8. 清除右侧按钮
@@ -600,3 +600,27 @@ type为image时 image为分享的图片链接或者是base64
 ```html
 <meta name="_navigation_color" content="#194c7b" />
 ```
+
+
+
+## 21. 语音转文本
+```javascript
+function voiceToText() {
+    cordova.exec(function (result) {
+        alert(JSON.stringify(result, null, 4));
+    },
+        function (error) {
+            alert("失败");
+        },
+        "WorkPlus_WebView",
+        "voiceToText", []);
+}
+
+请求输入数据：无
+请求返回数据：
+{
+	"message": "xxx"  //语音转出的文本
+}
+```
+
+

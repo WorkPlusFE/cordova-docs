@@ -17,3 +17,8 @@
 #### 201901125
 
 * WorkPlus\_WebView#share 新增 `dicrectly `参数, 始支持直接分享(暂时只提供直接分享内部联系人)
+
+
+#### 201901128
+
+* 新增 WorkPlus_WebView#voiceToText, 支持语音转文本
