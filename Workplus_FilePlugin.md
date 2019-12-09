@@ -209,6 +209,7 @@ function openFileDetail() {
                 "WorkPlus_Files",
                 "showFile",
                 [{
+                    "filePath": "xxx",
                     "fileName": "xxx",
                     "fileSize": xxx,
                     "mediaId" : "Z3JvdXAxL00wMC8wOS82RS9yQkFDLUZzV1EwMkFJblF5QUFDb293akxFYjQ5NjIuanBn",
@@ -216,14 +217,16 @@ function openFileDetail() {
                 }]
             );
         }
-        
+
 说明:
 请求输入数据:
 [{
-	"fileName": "xxx",
-    "fileSize": xxx,
-    "mediaId" : "xxx",
-    "isImage": false //指定文件是否是图片, 若为 true, 客户端则强制打开图片预览界面, false 则通过 fileName后缀来判断文件类型, 非图片则使用文件详情界面
+    "filePath": "xxx",// （可选参数）文件路径, 若传入该参数, 则优先以该路径为主; 支持本地以及http url 地址
+    "fileName": "xxx", // 必传
+    "fileSize": xxx, // 可选参数
+    "mediaId" : "xxx", // 可选参数
+    "isImage": false //（必传）指定文件是否是图片, 若为 true, 客户端则强制打开图片预览界面, false 则通过 fileName后缀来判断文件类型, 非图片则使用文件详情界面
+
 }]
     
         

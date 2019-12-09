@@ -29,7 +29,7 @@ function installApp(){
 }	
 ```
 
-##2. 原生app 路由跳转(WorkPlus版本3.1.3以上版本使用)
+##2. app 路由跳转(WorkPlus版本3.1.3以上版本使用)
 >根据参数跳转指定app
 
 请求调用示例:
@@ -75,8 +75,15 @@ function routeApp(){
 		    }
 			}
  ]
- scheme_url: ios 跟 android 都支持
+ scheme_url: ios 跟 android 都支持, 除了原生应用的schema_url 规则, 也支持内部的应用协议, 例如:workplus://openApp?id=abc&domainId=abc
+ 
  android_explicit_intent: 为android的传参形式, ios 不支持该方式.
  
-请求返回数据：无
+请求返回数据：
+
+{
+	"code":3,
+	"message":"应用不存在"
+}
+
 ```

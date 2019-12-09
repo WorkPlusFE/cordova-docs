@@ -213,7 +213,7 @@ function clearLeftButton(){
 
 说明：
 请求输入数据：无
-求返回数据：无
+请求返回数据：无
 ```
 
 ##8. 清除右侧按钮
@@ -289,7 +289,14 @@ function share(){
 "title":"百度一下"
 "cover_media_id":"分享图标mediaId"
 "scope": 0 // 该字段是用于显示范围, 0 只显示内部分享的操作, 包括"发送给", "分享到圈子", 1则显示全部
-"summary" : "abc" 分享链接的摘要  
+"summary" : "abc" //分享链接的摘要  
+"dicrectly": "w6s_contact"
+//直接执行分享操作, w6s_contact对应"分享弹出窗"的"发送给", 为App内部的联系人等列表, 后期扩展更多直接分享的类型, 敬请期待
+//当dicrectly存在值时, scope参数无意义, 请忽略, 默认dicrectly为空, 也即该接口会显示"分享弹出框"
+
+
+
+
 求返回数据：无
 ```
 
@@ -593,3 +600,27 @@ type为image时 image为分享的图片链接或者是base64
 ```html
 <meta name="_navigation_color" content="#194c7b" />
 ```
+
+
+
+## 21. 语音转文本
+```javascript
+function voiceToText() {
+    cordova.exec(function (result) {
+        alert(JSON.stringify(result, null, 4));
+    },
+        function (error) {
+            alert("失败");
+        },
+        "WorkPlus_WebView",
+        "voiceToText", []);
+}
+
+请求输入数据：无
+请求返回数据：
+{
+	"message": "xxx"  //语音转出的文本
+}
+```
+
+
