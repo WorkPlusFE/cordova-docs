@@ -221,7 +221,7 @@ function openFileDetail() {
 说明:
 请求输入数据:
 [{
-    "filePath": "xxx",// （可选参数）文件路径, 若传入该参数, 则优先以本地文件展示
+    "filePath": "xxx",// （可选参数）文件路径, 若传入该参数, 则优先以该路径为主; 支持本地以及http url 地址
     "fileName": "xxx", // 必传
     "fileSize": xxx, // 可选参数
     "mediaId" : "xxx", // 可选参数

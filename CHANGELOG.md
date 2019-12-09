@@ -22,3 +22,8 @@
 #### 201901128
 
 * 新增 WorkPlus_WebView#voiceToText, 支持语音转文本
+
+
+#### 201901209
+
+* WorkPlus\_FilePlugin#showFile `filePath`参数支持传入 http url 地址
