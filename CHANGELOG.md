@@ -1,5 +1,9 @@
 ## 更新日志
 
+#### 20191228
+
+* WorkPlus\_FilePlugin#getUserFilePath 增加返回说明
+
 #### 20191209
 
 * WorkPlus\_FilePlugin#showFile `filePath`参数支持传入 http url 地址
