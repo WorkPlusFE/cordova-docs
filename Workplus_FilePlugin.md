@@ -193,6 +193,14 @@ custom: 轻应用自定义的用户目录, 如传入参数"custom" : "abc", app 
 
 以上参数 system 优先级比较高, 即两个类型同时传入时, 以"system"为准
 
+
+
+请求返回数据:
+
+//直接返回目录路径
+"/storage/emulated/0/workplus-test-profile/USER/15918723567/FILE/”
+
+
 ```
 
 ##7. 打开文件详情
