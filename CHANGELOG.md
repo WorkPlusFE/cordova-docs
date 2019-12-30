@@ -1,5 +1,10 @@
 ## 更新日志
 
+#### 20191230
+
+* WorkPlus\_ImagesPlugin#takePhotoAndAddWaterMark 添加拍照水印添加时间和定位信息
+* WorkPlus\_ImagesPlugin#captureStillImage 新增定制人脸拍照界面
+
 #### 20191228
 
 * WorkPlus\_FilePlugin#getUserFilePath 增加返回说明
