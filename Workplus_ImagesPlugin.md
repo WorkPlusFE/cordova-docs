@@ -404,9 +404,13 @@ function takePictureAddWatermark() {
                  },
                  "WorkPlus_Image",
                  "takePhotoAndAddWaterMark",
-                 [{"content":"1234567890",
+                 [{
+                    "content":"1234567890",
                     "font_size":"14",
-                        "color":"#FF5858"
+                    "color":"#FF5858",
+                    "mark_disable": false,
+                    "time_enable": true,
+                    "location_enable": true,
                     }]
                  );
         }
@@ -416,10 +420,54 @@ function takePictureAddWatermark() {
    "content":“水印内容”,
    "font_size":"水印字号大小",
    "color":“水印颜色”,
+   "mark_disable": false, // 屏蔽水印，false:不屏蔽。true：屏蔽
+   "time_enable": true,   // 水印添加时间：false：不添加。true：添加
+   "location_enable": true,//水印添加位置：false：不添加。true：添加
 }]
 
 
 请求返回数据：
-无
+{
+"imageURL":"压缩后图像存在本地的地址",
+"key":"原图像存在本地的地址",
+"mediaId":"图像在后台的媒体mediaId"
+"imageInfo": //相对于图像的信息
+{
+"height":"图像高",
+"width":"图像宽",
+"size":"图像大小"
+}
+}
 ```
 
+## 13. 敏捷定制人脸拍照界面
+>拍照返回裁剪后的图片
+
+请求调用示例:
+
+```javascript
+function faceRecognition() {
+cordova.exec(function(result) {
+alert(JSON.stringify(result, null, 4));
+},
+function(error) {
+alert("失败");
+},
+"WorkPlus_Image",
+"captureStillImage",[
+]);
+
+}
+说明：
+请求输入数据：
+无
+
+请求返回数据：
+成功
+{
+"crop_path":"path", // 返回图片本地路径
+"crop_img":"imageBase64Str" // 返回图片base64
+}
+失败
+{"message":"获取图片失败"}
+```
