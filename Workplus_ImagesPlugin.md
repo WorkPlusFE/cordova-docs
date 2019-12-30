@@ -440,23 +440,22 @@ function takePictureAddWatermark() {
 }
 ```
 
-## 13. 敏捷定制人脸拍照界面
->拍照返回裁剪后的图片
+## 13. 定制化人脸拍照界面
+>（该接口需要单独定制，需要联系开发人员）
 
 请求调用示例:
 
 ```javascript
 function faceRecognition() {
-cordova.exec(function(result) {
-alert(JSON.stringify(result, null, 4));
-},
-function(error) {
-alert("失败");
-},
-"WorkPlus_Image",
-"captureStillImage",[
-]);
-
+    cordova.exec(function(result) {
+    alert(JSON.stringify(result, null, 4));
+    },
+    function(error) {
+    alert("失败");
+    },
+    "WorkPlus_Image",
+    "captureStillImage",[
+    ]);
 }
 说明：
 请求输入数据：
