@@ -208,5 +208,34 @@ function faceBizValid() {
 请求返回数据：无
 ```
 
+##8. 获取签名信息（定制）
+>针对特定的平台
+>
+
+请求调用示例:
+
+```javascript
+function getSignature(){
+    cordova.exec(function(result) {
+        alert(JSON.stringify(result, null, 4));
+    },
+    function(error) {
+        alert("调用失败");
+    },
+    "WorkPlus_HTMember",
+    "getSignature", 
+    []);
+}
+
+说明：
+请求输入数据：无
+请求返回数据：
+{
+    "channel_id":"",
+    "signature":"",
+    "nonce":"",
+    "timestamp":""
+}
+```
 
 <br/>

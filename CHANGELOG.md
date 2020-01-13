@@ -1,5 +1,9 @@
 ## 更新日志
 
+#### 20200113
+
+* WorkPlus\_HTMemberPlugin#getSignature 特定平台获取签名信息
+
 #### 20191230
 
 * WorkPlus\_ImagesPlugin#takePhotoAndAddWaterMark 添加拍照水印添加时间和定位信息
