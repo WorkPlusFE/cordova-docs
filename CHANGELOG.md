@@ -3,6 +3,7 @@
 
 #### 20200316
 * 新增Workplus\_VoicePlugin, 支持相关语音语音操作
+* 新增Workplus\_LightApp#routeBiometricAuthenticationLock, 支持生物认证(指纹或者FACE_ID)
 
 #### 20191228
 

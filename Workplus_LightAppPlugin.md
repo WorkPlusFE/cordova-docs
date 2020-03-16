@@ -37,3 +37,30 @@ function getConfig(){
 ```
 
 <br/>
+
+## 2. 生物认证检查
+>生物认证(指纹或者FACE_ID)通过后, 才能进行相关操作
+
+```javascript
+function routeBiometricAuthenticationLock() {
+            cordova.exec(function (result) {
+                alert(JSON.stringify(result, null, 4));
+
+            },
+                function (error) {
+                    alert("调用失败:" + error);
+                },
+                "WorkPlus_LightApp",
+                "routeBiometricAuthenticationLock", []);
+        }
+        
+        
+        
+说明：
+请求输入数据：
+
+
+请求返回数据：
+{
+	"code": 0   //0表示生物认证成功, 2表示用户取消了设置	"message" : "解锁成功"
+}
