@@ -4,6 +4,7 @@
 #### 20200316
 * 新增Workplus\_VoicePlugin, 支持相关语音语音操作
 * 新增Workplus\_LightApp#routeBiometricAuthenticationLock, 支持生物认证(指纹或者FACE_ID)
+* 新增WorkPlus\_AudioAndVideo#translateAudio方法, 支持音频转换mp3格式(amr转 mp3)
 
 #### 20191228
 
