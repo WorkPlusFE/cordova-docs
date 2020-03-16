@@ -1,7 +1,12 @@
 ## 更新日志
 
+
 #### 20200316
 * 新增Workplus\_VoicePlugin, 支持相关语音语音操作
+
+#### 20191228
+
+* WorkPlus\_FilePlugin#getUserFilePath 增加返回说明
 
 #### 20191209
 
