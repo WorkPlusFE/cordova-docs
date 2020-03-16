@@ -1,5 +1,8 @@
 ## 更新日志
 
+#### 20200316
+* 新增Workplus\_VoicePlugin, 支持相关语音语音操作
+
 #### 20191209
 
 * WorkPlus\_FilePlugin#showFile `filePath`参数支持传入 http url 地址
