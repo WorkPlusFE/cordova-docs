@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>使用说明 · WorkPlus Cordova API 文档</title>
+        <title>邮箱 · WorkPlus Cordova API 文档</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="CHANGELOG.html" />
+    <link rel="next" href="Workplus_EventLog.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="Workplus_OCR.html" />
     
 
     </head>
@@ -106,7 +106,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="use_instruction.html">
+        <li class="chapter " data-level="1.2" data-path="use_instruction.html">
             
                 <a href="use_instruction.html">
             
@@ -327,7 +327,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.19" data-path="Workplus_Email.html">
+        <li class="chapter active" data-level="1.19" data-path="Workplus_Email.html">
             
                 <a href="Workplus_Email.html">
             
@@ -409,7 +409,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >使用说明</a>
+        <a href="." >邮箱</a>
     </h1>
 </div>
 
@@ -424,21 +424,48 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="&#x6CE8;&#x5165;&#x4F7F;&#x7528;&#x8BF4;&#x660E;"><a name="&#x6CE8;&#x5165;&#x4F7F;&#x7528;&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#&#x6CE8;&#x5165;&#x4F7F;&#x7528;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6CE8;&#x5165;&#x4F7F;&#x7528;&#x8BF4;&#x660E;</h3>
-<p>cordova &#x6240;&#x4F9D;&#x8D56;&#x7684; js &#x5E76;&#x4E0D;&#x9700;&#x8981;&#x8C03;&#x7528;&#x65B9;&#x76F4;&#x63A5;&#x5F15;&#x5165;, &#x5728;&#x539F;&#x751F;&#x4EE3;&#x7801;&#x91CC;(android/ ios)&#x5DF2;&#x7ECF;&#x542B;&#x6709;&#x5BF9;&#x5E94;&#x7684; js sdk &#x4EE3;&#x7801;, &#x56E0;&#x6B64;&#x8C03;&#x7528;&#x65B9;&#x53EA;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x4EE5;&#x4E0B;&#x89C4;&#x5219;&#x5373;&#x53EF;&#x8C03;&#x7528;cordova: </p>
-<pre><code class="lang-javascript"><span class="hljs-number">1.</span> &lt;script src=<span class="hljs-string">&quot;applocal://www/cordova.min.js&quot;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
-
-    <span class="hljs-comment">// &quot;xxx/xxx/cordova.min.js&quot;&#x4E3A;&#x5185;&#x5BB9;&#x662F;&#x7A7A;&#x7684; cordova.min.js &#x6587;&#x4EF6;&#x8DEF;&#x5F84;, &#x4E5F;&#x5373;&#x5B58;&#x5728;&#x8BE5;&#x6587;&#x4EF6;,&#x4F46;&#x4E0D;&#x9700;&#x8981;&#x5B9E;&#x9645;&#x5185;&#x5BB9;</span>
-<span class="hljs-number">2.</span> &lt;script src=<span class="hljs-string">&quot;https://xxx/xxx/cordova.min.js&quot;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
+                                <div id="anchor-navigation-ex-pagetop-navbar"><ul><li><span class="title-icon "></span><a href="#&#x90AE;&#x7BB1;&#x63A5;&#x53E3;workplusemail"><b></b>&#x90AE;&#x7BB1;&#x63A5;&#x53E3;(WorkPlus_Email)</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x5199;&#x90AE;&#x4EF6;"><b></b>1. &#x5199;&#x90AE;&#x4EF6;</a></li><li><span class="title-icon "></span><a href="#2-&#x6253;&#x5F00;&#x90AE;&#x7BB1;"><b></b>2. &#x6253;&#x5F00;&#x90AE;&#x7BB1;</a></li></ul></ul></div><a href="#&#x90AE;&#x7BB1;&#x63A5;&#x53E3;workplusemail" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x90AE;&#x7BB1;&#x63A5;&#x53E3;workplusemail"><a name="&#x90AE;&#x7BB1;&#x63A5;&#x53E3;workplusemail" class="anchor-navigation-ex-anchor" href="#&#x90AE;&#x7BB1;&#x63A5;&#x53E3;workplusemail"><i class="fa fa-link" aria-hidden="true"></i></a>&#x90AE;&#x7BB1;&#x63A5;&#x53E3;(WorkPlus_Email)</h1>
+<hr>
+<h2 id="1-&#x5199;&#x90AE;&#x4EF6;"><a name="1-&#x5199;&#x90AE;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#1-&#x5199;&#x90AE;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x5199;&#x90AE;&#x4EF6;</h2>
+<blockquote>
+<p>&#x8DF3;&#x8F6C;&#x5230;&#x5199;&#x90AE;&#x4EF6;&#x7684;&#x9875;&#x9762;</p>
+</blockquote>
+<p>&#x8BF7;&#x6C42;&#x8C03;&#x7528;&#x793A;&#x4F8B;:</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">writeEmail</span>(<span class="hljs-params"></span>) </span>{
+    cordova.exec(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) </span>{
+        alert(result);
+    },
+        <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error</span>) </span>{
+            alert(<span class="hljs-string">&quot;&#x8C03;&#x7528;&#x5931;&#x8D25;&quot;</span>);
+        },
+        <span class="hljs-string">&quot;WorkPlus_Email&quot;</span>,
+        <span class="hljs-string">&quot;writeEmail&quot;</span>, [
+            {
+                <span class="hljs-string">&quot;emails&quot;</span>: <span class="hljs-string">&quot;xxx.163.com,xxx.foreverht.com&quot;</span> 
+            }
+        ]);
+}
 </code></pre>
-<p>&#x5176;&#x4E2D;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;,  <code>&#x8BED;&#x53E5;2</code> &#x662F;&#x4E3A;&#x4E86;&#x517C;&#x5BB9;&#x5728; android 6.0 &#x4EE5;&#x4E0B;, <strong>https</strong> &#x73AF;&#x5883;&#x91CC;&#x81EA;&#x5B9A;&#x4E49;&#x534F;&#x8BAE;&#x5934;, &#x5982;<code>&#x8BED;&#x53E5;1</code>&#x4E2D;&#x7684; <code>applocal://</code> &#x4F1A;&#x51FA;&#x73B0;&#x62A5;&#x9519;, &#x65E0;&#x6CD5;&#x6B63;&#x5E38;&#x4F7F;&#x7528;.</p>
-<p>&#x56E0;&#x6B64;&#x4EE5;&#x4E0A;2&#x4E2A;&#x8BED;&#x53E5;&#x90FD;&#x662F;<strong>&#x5FC5;&#x987B;</strong>&#x7684;, &#x5426;&#x5219;&#x5728;&#x90E8;&#x5206; android &#x673A;&#x5668;&#x4F1A;&#x51FA;&#x73B0; cordova &#x65E0;&#x6CD5;&#x8C03;&#x7528;&#x7684;&#x95EE;&#x9898;.</p>
-<h3 id="&#x6CE8;&#x5165;&#x6210;&#x529F;&#x56DE;&#x8C03;"><a name="&#x6CE8;&#x5165;&#x6210;&#x529F;&#x56DE;&#x8C03;" class="anchor-navigation-ex-anchor" href="#&#x6CE8;&#x5165;&#x6210;&#x529F;&#x56DE;&#x8C03;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6CE8;&#x5165;&#x6210;&#x529F;&#x56DE;&#x8C03;</h3>
-<p>&#x5F53;&#x63A5;&#x6536;&#x5230;&#x4EE5;&#x4E0B;&#x56DE;&#x8C03;&#x65F6;, &#x624D;&#x8BF4;&#x660E; cordova &#x6CE8;&#x5165;&#x6210;&#x529F;, &#x5E76;&#x4E14;&#x80FD;&#x5F00;&#x59CB;&#x8C03;&#x7528;:</p>
-<pre><code class="lang-javascript"><span class="hljs-built_in">document</span>.addEventListener(<span class="hljs-string">&quot;deviceready&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
-    <span class="hljs-comment">//&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x8C03;&#x7528; cordova &#x4E86;</span>
-
-}, <span class="hljs-literal">false</span>);
+<p>&#x8BF7;&#x6C42;&#x6570;&#x636E;&#x8BF4;&#x660E;:</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;emails&quot;</span>: <span class="hljs-string">&quot;xxx.163.com,xxx.foreverht.com&quot;</span> <span class="hljs-comment">//&#x53D1;&#x9001;&#x90AE;&#x7BB1;&#x5730;&#x5740;, &#x652F;&#x6301;&#x591A;&#x5730;&#x5740;, &#x4F7F;&#x7528;&quot;,&quot;&#x5206;&#x5272;</span>
+}
+</code></pre>
+<h2 id="2-&#x6253;&#x5F00;&#x90AE;&#x7BB1;"><a name="2-&#x6253;&#x5F00;&#x90AE;&#x7BB1;" class="anchor-navigation-ex-anchor" href="#2-&#x6253;&#x5F00;&#x90AE;&#x7BB1;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x6253;&#x5F00;&#x90AE;&#x7BB1;</h2>
+<blockquote>
+<p>&#x8DF3;&#x8F6C;&#x5230;&#x6211;&#x7684;&#x90AE;&#x7BB1;&#xFF08;&#x672A;&#x767B;&#x9646;&#x5C31;&#x8DF3;&#x8F6C;&#x5230;&#x767B;&#x9646;&#x9875;&#xFF09;</p>
+</blockquote>
+<p>&#x8BF7;&#x6C42;&#x8C03;&#x7528;&#x793A;&#x4F8B;:</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">openEmail</span>(<span class="hljs-params"></span>) </span>{
+    cordova.exec(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">result</span>) </span>{
+        alert(result);
+    },
+        <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error</span>) </span>{
+            alert(<span class="hljs-string">&quot;&#x8C03;&#x7528;&#x5931;&#x8D25;&quot;</span>);
+        },
+        <span class="hljs-string">&quot;WorkPlus_Email&quot;</span>,
+        <span class="hljs-string">&quot;openEmail&quot;</span>, []);
+}
 </code></pre>
 
                                 
@@ -467,12 +494,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 总述">
+                <a href="Workplus_OCR.html" class="navigation navigation-prev " aria-label="Previous page: OCR识别">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="CHANGELOG.html" class="navigation navigation-next " aria-label="Next page: 更新日志">
+                <a href="Workplus_EventLog.html" class="navigation navigation-next " aria-label="Next page: 事件日志">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -483,7 +510,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"使用说明","level":"1.2","depth":1,"next":{"title":"更新日志","level":"1.3","depth":1,"path":"CHANGELOG.md","ref":"CHANGELOG.md","articles":[]},"previous":{"title":"总述","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","anchor-navigation-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"pageTop","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"workplus","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":36,"bottom":36}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WorkPlus Cordova API 文档","gitbook":"*"},"file":{"path":"use_instruction.md","mtime":"2020-03-17T06:02:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-17T06:04:25.038Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"邮箱","level":"1.19","depth":1,"next":{"title":"事件日志","level":"1.20","depth":1,"path":"Workplus_EventLog.md","ref":"Workplus_EventLog.md","articles":[]},"previous":{"title":"OCR识别","level":"1.18","depth":1,"path":"Workplus_OCR.md","ref":"Workplus_OCR.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","anchor-navigation-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"pageTop","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"workplus","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":36,"bottom":36}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WorkPlus Cordova API 文档","gitbook":"*"},"file":{"path":"Workplus_Email.md","mtime":"2020-03-17T06:02:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-17T06:04:25.038Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
