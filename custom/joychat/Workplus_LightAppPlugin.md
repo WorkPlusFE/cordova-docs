@@ -51,16 +51,21 @@ function routeBiometricAuthenticationLock() {
                     alert("调用失败:" + error);
                 },
                 "WorkPlus_LightApp",
-                "routeBiometricAuthenticationLock", []);
+                "routeBiometricAuthenticationLock", [{"check_url": "https://xxx"}]);
         }
         
         
         
 说明：
 请求输入数据：
-
+{
+	"check_url" : "https://xxx"   //校验url, 选填参数, 若传进该参数, 需要http请求返回200, 才能进行生物认证检查
+}
 
 请求返回数据：
 {
-	"code": 0   //0表示生物认证成功, 2表示用户取消了设置	"message" : "解锁成功"
+	"code": 0   //0表示生物认证成功, 2表示用户取消了设置, -3表示授权失败
+	"message" : "解锁成功"
 }
+        
+```
