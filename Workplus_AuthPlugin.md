@@ -30,34 +30,7 @@ function getUserTicket(){
 
 ```
 
-##2. 获取当前登录用户的accessToken
->当前登录用户的accessToken
->
-
-请求调用示例:
-
-```javascript
-function getAccessToken(){
- cordova.exec(function(result) {
-            alert(JSON.stringify(result, null, 4));
-        },
-        function(error) {
-            alert("调用失败");
-        },
-        "WorkPlus_Auth",
-        "getAccessToken", 
-        []);
-}
-
-说明：
-请求输入数据：无
-请求返回数据：
-{
-	"access_token":"用户登陆的access_token"	
-}
-```
-
-##3. 获取当前app请求后台api地址
+##2. 获取当前app请求后台api地址
 >获取当前app请求后台api地址
 >
 
@@ -84,7 +57,7 @@ function getServerInfo(){
 }
 ```
 
-##4. 告诉WorkPlus当前的accessToken已过期
+##3. 告诉WorkPlus当前的accessToken已过期
 >通过轻应用告知当前accessToken过期，workplus推出当前登录状态
 >
 
@@ -109,7 +82,7 @@ function onAccessTokenOverdue(){
 app弹框请求退出重新登录
 ```
 
-##5. 获取当前的租户id
+##4. 获取当前的租户id
 >获取当前租户id，即域id
 >
 
@@ -139,7 +112,7 @@ function getTenantID(){
 }
 ```
 
-##6. 获取当前登录用户最基本详情
+##5. 获取当前登录用户最基本详情
 >获取当前登录用户最基本详情，包括token，用户信息
 >
 
@@ -186,7 +159,7 @@ function getLoginUserInfo(){
 
 
 
-##7. 人脸识别(需商务确定人脸识别方案)
+##6. 人脸识别(需商务确定人脸识别方案)
 >唤起人脸识别验证(具体 sdk 根据当前打包配置)
 >
 
@@ -208,7 +181,7 @@ function faceBizValid() {
 请求返回数据：无
 ```
 
-##8. 获取签名信息（定制）
+##7. 获取签名信息（定制）
 >针对特定的平台
 >
 
