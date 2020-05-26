@@ -1,7 +1,15 @@
 ## 更新日志
 
+#### 20200526
+
+* 新增 WorkPlus_AudioAndVideo#startVideoRecoder 参数 front / sync_system_album, 支持控制录制视频时是否使用前置摄像头和是否同步到系统相册
+
+*  新增WorkPlus_Image#selectImages 参数 medias, 控制是否在相册选择时, 显示出视频出来
+
+
 
 #### 20200316
+
 * 新增Workplus\_VoicePlugin, 支持相关语音语音操作
 * 新增Workplus\_LightApp#routeBiometricAuthenticationLock, 支持生物认证(指纹或者FACE_ID)
 * 新增WorkPlus\_AudioAndVideo#translateAudio方法, 支持音频转换mp3格式(amr转 mp3)

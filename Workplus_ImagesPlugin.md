@@ -149,8 +149,7 @@ function selectImageWithEdit(){
         "WorkPlus_Image",
         "selectImages", 
         [{
-          "imageKeys":["本机的地址", "xxx",...],
-          "medias": 1 //需显示出视频
+          "imageKeys":["本机的地址", "xxx",...]
           }]
         );
 }
@@ -159,7 +158,7 @@ function selectImageWithEdit(){
 请求输入数据(可无)：
 {
   "imageKeys":["本机的地址", "xxx",...],
-  "medias": 1 //相册选择时, 支持的类型. 1表示需支持视频选择.
+  "medias": 1 //相册选择时, 支持的类型. 1表示需支持视频选择. 可不填, 不填则默认只选择图片
 }
 
 请求返回数据：
