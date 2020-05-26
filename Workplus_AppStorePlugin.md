@@ -87,3 +87,66 @@ function routeApp(){
 }
 
 ```
+
+
+
+
+##3. 管理员身份获取应用信息
+>暂时只支持内存里的信息, 用于与h5之间的交互
+
+请求调用示例:
+
+```javascript
+
+function adminQueryApp(){
+ cordova.exec(function(result) {
+            alert(JSON.stringify(result, null, 4));
+        },
+        function(error) {
+            alert("调用失败");
+        },
+        "WorkPlus_AppStore",
+        "adminQueryApp", 
+        [{"app_id":"xxx"}]
+        );
+}
+
+说明：
+请求输入数据：[{"app_id":"xxx"}]
+请求返回数据：
+{
+	.... 格式参考  https://note.youdao.com/ynoteshare1/index.html?id=ff623a7fdec27882141e9968ba2b7f81&type=note 里
+"获取组织下所有应用(组织管理员身份)"的接口返回数据
+}
+
+```
+
+
+##4. 管理员更新应用信息
+> 调用接口后, 会触发原生界面reload 管理应用数据
+
+```javascript
+
+function adminRefreshApps(){
+ cordova.exec(function(result) {
+            alert(JSON.stringify(result, null, 4));
+        },
+        function(error) {
+            alert("调用失败");
+        },
+        "WorkPlus_AppStore",
+        "adminRefreshApps", 
+        []
+        );
+}
+
+
+说明：
+请求输入数据：
+无
+
+请求返回数据：
+无
+
+
+```
