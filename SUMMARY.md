@@ -24,4 +24,5 @@
 * [iBeacon蓝牙](WorkPlus_IbeaconPlugin.md)
 * [通知栏提醒](WorkPlus_Notification.md)
 * [组织](WorkPlus_OrgPlugin.md)
+* [Umeeting](Workplus_Umeeting.md)
 
