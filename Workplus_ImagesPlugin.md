@@ -140,7 +140,7 @@ function selectImageWithEdit(){
 
 ```javascript
 function selectImageWithEdit(){
- cordova.exec(function(result) {
+  cordova.exec(function(result) {
             alert(JSON.stringify(result, null, 4));
         },
         function(error) {
@@ -148,12 +148,20 @@ function selectImageWithEdit(){
         },
         "WorkPlus_Image",
         "selectImages", 
-        [{"imageKeys":["图片在本机的地址", "xxx",...]}]
+        [{
+          "imageKeys":["本机的地址", "xxx",...],
+          "medias": 1 //需显示出视频
+          }]
         );
 }
 
 说明：
-请求输入数据(可无)：[{"imageKeys":["图片在本机的地址", "xxx",...]}]
+请求输入数据(可无)：
+{
+  "imageKeys":["本机的地址", "xxx",...],
+  "medias": 1 //相册选择时, 支持的类型. 1表示需支持视频选择.
+}
+
 请求返回数据：
 [{
 	"imageURL":"压缩后图像存在本地的地址",
@@ -164,7 +172,12 @@ function selectImageWithEdit(){
 		"width":"图像宽",
 		"size":"图像大小"
 	}
+
  },
+ {
+   "key": "视频本地的地址",
+   "videoURL": "视频本地的地址"
+ }
 ...
 ]
 ```

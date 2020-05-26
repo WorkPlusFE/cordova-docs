@@ -37,7 +37,7 @@
 请求调用示例:
 
 ```javascript
-    function startVideoRecoder(){
+function startVideoRecoder(){
 
         cordova.exec(
             function(result){
@@ -49,7 +49,8 @@
                 "WorkPlus_AudioAndVideo",
                 "startVideoRecoder",[{
                       "duration":"60.0",
-                      "quality":"0"
+                      "quality":"0",
+                      "sync_system_album": true
                  }]
             );
     }
@@ -58,7 +59,8 @@
 请求输入数据：
 "duration" : 视频录制最大录制时长,单位秒(默认为10秒)
 "quality"  : 视频录制清晰度, "0" > 高清; "1" > 一般; "2" > 流畅(默认为一般)
-
+"sync_system_album"  : 控制是否同步到系统相册, 可不填, 默认为false
+"front":  控制摄像头是否为前置摄像头, 可不填, 默认为false
 请求返回数据：
 {
 "code": 0,
