@@ -21,5 +21,5 @@
 * [邮箱](Workplus_Email.md)
 * [事件日志](Workplus_EventLog.md)
 * [语音](Workplus_VoicePlugin.md)
-* [Umeeting 会议](Workplus_Umeeting.md)
+* [iBeacon蓝牙](WorkPlus_IbeaconPlugin.md)
 
