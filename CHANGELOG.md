@@ -19,6 +19,15 @@
 * 新增Workplus\_LightApp#routeBiometricAuthenticationLock, 支持生物认证(指纹或者FACE_ID)
 * 新增WorkPlus\_AudioAndVideo#translateAudio方法, 支持音频转换mp3格式(amr转 mp3)
 
+#### 20200113
+
+* WorkPlus\_HTMemberPlugin#getSignature 特定平台获取签名信息
+
+#### 20191230
+
+* WorkPlus\_ImagesPlugin#takePhotoAndAddWaterMark 添加拍照水印添加时间和定位信息
+* WorkPlus\_ImagesPlugin#captureStillImage 新增定制人脸拍照界面
+
 #### 20191228
 
 * WorkPlus\_FilePlugin#getUserFilePath 增加返回说明
