@@ -46,6 +46,9 @@ function openWebView(){
 	        	"url":"打开的网址url", 
 	        	"title":"打开网页的标题",
 	        	"use_android_webview": true, //是否使用 android 原生 webview 打开, 否则使用workplus 订制的 webview
+            
+						"use_system_webview":true, //等同于use_android_webview, 只是该参数能用于ios以及android平台
+            
 	        	"display_mode": "FULL_SCREEN"//全屏打开 webview(即不包含原生标题栏), 默认非全屏
         	}
         ]
@@ -584,7 +587,7 @@ function wxShare() {
             "data"  : { "url" : "https://www.baidu.com" }
         }]);
 }
-``` 
+```
 
 说明：
 
@@ -616,7 +619,10 @@ type为image时 image为分享的图片链接或者是base64
 
 
 
+
+
 ## 21. 语音转文本
+
 ```javascript
 function voiceToText() {
     cordova.exec(function (result) {
@@ -635,5 +641,91 @@ function voiceToText() {
 	"message": "xxx"  //语音转出的文本
 }
 ```
+
+
+
+## 22. 获取分享弹出时显示的数据
+请求调用示例:
+
+```javascript
+
+function getShareItems(){
+ cordova.exec(function(result) {
+            alert(JSON.stringify(result, null, 4));
+        },
+        function(error) {
+            alert("调用失败");
+        },
+        "WorkPlus_WebView",
+        "getShareItems", 
+        []);
+}
+说明：
+请求输入数据：
+无
+
+请求返回数据：
+{
+  "items": [
+    {
+      "type": "W6S_CONTACT"
+    },
+    {
+      "type": "WX_CONTACT"
+    },
+    ...
+  ]
+}
+
+"type"数据参考下表:
+```
+
+
+
+
+| type           | 描述            |
+| -------------- | --------------- |
+| W6S_CONTACT    | 分享到workplus  |
+| WX_CONTACT     | 分享到微信      |
+| WX_CIRCLE      | 分享到朋友圈    |
+| QQ_CONTACT     | 分享到扣扣      |
+| QQ_ZONE        | 分享到扣扣空间  |
+| SYSTEM_WEBVIEW | 系统webview打开 |
+| COPY_LINK      | 复制链接        |
+
+
+
+
+
+## 23. 复制文本
+
+请求调用示例:
+
+```javascript
+
+function copyText(){
+ cordova.exec(function(result) {
+            alert(JSON.stringify(result, null, 4));
+        },
+        function(error) {
+            alert("调用失败");
+        },
+        "WorkPlus_WebView",
+        "copyText", 
+        []);
+}
+说明：
+请求输入数据：
+{
+  "text": "www.workplus.io"
+}
+
+
+请求返回数据：
+无
+```
+
+
+
 
 

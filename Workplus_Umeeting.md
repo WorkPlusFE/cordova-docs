@@ -74,7 +74,8 @@ function joinMeeting() {
  请求输入数据: 
  [{
      "display_name": "dasynsy", //昵称
-     "meeting_id": "18820274107"  //会议号
+     "meeting_id": "18820274107",  //会议号
+   	 "password": "xxx"     //入会密码, 可不填
  }]
  请求返回数据:
 {
