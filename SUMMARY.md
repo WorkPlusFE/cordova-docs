@@ -22,4 +22,5 @@
 * [事件日志](Workplus_EventLog.md)
 * [语音](Workplus_VoicePlugin.md)
 * [iBeacon蓝牙](WorkPlus_IbeaconPlugin.md)
+* [通知栏提醒](WorkPlus_Notification.md)
 
