@@ -819,4 +819,48 @@ function selectContactsCache() {
 
 
 
+##18. 选择范围
+> 根据传入组织, 选择雇员范围
 
+请求调用示例:
+
+```javascript
+
+function selectScopes(){
+ cordova.exec(function(result) {
+            alert(JSON.stringify(result, null, 4));
+        },
+        function(error) {
+            alert("调用失败");
+        },
+        "WorkPlus_Contact",
+        "selectScopes", 
+        [
+        ]);
+}
+
+说明：
+请求输入数据(可无, 即代表当前组织)：
+[{
+    "selected_employees":[
+    //用户回传过来的雇员列表信息
+    {}, {}
+    ...
+    ],
+   
+   "selected_organizations":[
+    //用户回传过来的组织列表信息
+    {}, {}
+    ...
+    ],
+    //决定操作的组织架构(可无, 即代表当前组织)
+    "org_code": "xxxx"
+}]
+
+请求返回数据：
+
+{
+    "employees":[{...}, {...}],
+    "organizations": [{...}, {...}]
+}
+```
