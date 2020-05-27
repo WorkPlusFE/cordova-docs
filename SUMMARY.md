@@ -9,6 +9,7 @@
 * [音频/视频](Workplus_AudioAndVideoPlugin.md)
 * [认证](Workplus_AuthPlugin.md)
 * [网页](Workplus_WebViewPlugin.md)
+* [WebView 导航栏规则](WebView-规范/WebView组件.md)
 * [地理位置](Workplus_LocationPlugin.md)
 * [设备信息](Workplus_DeviceInfoPlugin.md)
 * [轻应用](Workplus_LightAppPlugin.md)
