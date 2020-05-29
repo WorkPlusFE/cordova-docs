@@ -254,8 +254,7 @@ function saveImages(){
         "saveImages", 
         [
         	{
-        		“mediaId”:"图片mediaId",
-        	 	"url":"图片url地址",
+        	 	"url":"图片url地址"
          	}
         ]
         );
@@ -265,8 +264,10 @@ function saveImages(){
 请求输入数据：
 [
 	{
-		“mediaId”:"图片mediaId",
+    //"mediaId", "url", "imageData" 都是选填参数, 三者根据开发者的场景, 进行选择
+		“mediaId”:"图片mediaId",  
 	 	"url":"图片url地址",
+    "imageData": "base64数据"
  	}
 ]
 请求返回数据：无

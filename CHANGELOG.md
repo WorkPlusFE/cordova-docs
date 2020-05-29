@@ -1,5 +1,12 @@
 ## 更新日志
 
+#### 20200529
+* WorkPlus_Image#saveImages 新增base64支持
+
+
+
+
+
 #### 20200526
 
 * 新增 WorkPlus_AudioAndVideo#startVideoRecoder 参数 front / sync_system_album, 支持控制录制视频时是否使用前置摄像头和是否同步到系统相册
