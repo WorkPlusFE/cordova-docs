@@ -112,54 +112,10 @@ function getTenantID(){
 }
 ```
 
-##5. 获取当前登录用户最基本详情
->获取当前登录用户最基本详情，包括token，用户信息
->
-
-请求调用示例:
-
-```javascript
-function getLoginUserInfo(){
- cordova.exec(function(result) {
-            alert(JSON.stringify(result, null, 4));
-        },
-        function(error) {
-            alert("调用失败");
-        },
-        "WorkPlus_Auth",
-        "getLoginUserInfo", 
-        []);
-}
-
-说明：
-请求输入数据：无
-请求返回数据：
-{
-	{
-		"login_token": //当前登陆的accessToken信息
-		{
-			"access_token":"当前登陆的access_token",
-			"refresh_token":"刷新token",
-			"issued_time":"生效时间",
-			"expire_time":"过期时间",
-			"client_id":"所持有的用户的用户id"
-		}
-		
-	},
-	{
-		"login_user": 
-		{
-			"username":"用户注册username",
-			"name":"用户名",
-			"avatar":"用户头像"
-		 }
-	}
-}
-```
 
 
 
-##6. 人脸识别(需商务确定人脸识别方案)
+##5. 人脸识别(需商务确定人脸识别方案)
 >唤起人脸识别验证(具体 sdk 根据当前打包配置)
 >
 
@@ -181,7 +137,7 @@ function faceBizValid() {
 请求返回数据：无
 ```
 
-##7. 获取签名信息（定制）
+##6. 获取签名信息（定制）
 >针对特定的平台
 >
 
