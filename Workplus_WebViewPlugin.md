@@ -302,14 +302,14 @@ function share(){
 "scope": 0 // 该字段是用于显示范围, 0 只显示内部分享的操作, 包括"发送给", "分享到圈子", 1则显示全部
 "summary" : "abc" //分享链接的摘要  
 
-"dicrectly": "w6s_contact",
+"directly": "w6s_contact",
 //直接执行分享操作支持:
 //w6s_contact 对应"分享弹出窗"的"发送给", 为App内部的联系人等列表,
 //w6s_current_session 表示直接分享给指定会话, 无任何弹出窗或者选择界面
 //后期扩展更多直接分享的类型, 敬请期待
-//当dicrectly存在值时, scope参数无意义, 请忽略, 默认dicrectly为空, 也即该接口会显示"分享弹出框"
+//当directly存在值时, scope参数无意义, 请忽略, 默认directly为空, 也即该接口会显示"分享弹出框"
 
-//dicrectly为 "w6s_current_session"时, 以下参数用以指定分享的会话
+//directly为 "w6s_current_session"时, 以下参数用以指定分享的会话
 "direct_session": {
 	"id" : "xxxx",
 	"type": "discussion"
