@@ -8,7 +8,7 @@ WorkPlus Cordova SDK 驻留在 WorkPlus 移动 App 上，为部署在 WorkPlus �
 
 使用 WorkPlus 扫一扫，查看在线例子：
 
-<img src="https://github.com/WorkPlusFE/codash/raw/master/design/qr-code.png" alt="cordova example" />
+<img src="https://github.com/WorkPlusFE/codash/raw/master/design/qr-code.png" width=160 alt="cordova example" />
 
 ### 如何参与文档编辑
 
