@@ -224,7 +224,7 @@
 
 
  目前支持三种规则:
- 
+
  1. 使用系统内置图标, 如下表.
  2. 使用base64, 此时icon取值为 "icon":"base64:xxxxxx" 
 
@@ -233,15 +233,15 @@
 
 | 图标编号 | 图标  | 图标编号 |  图标 |
 |--------|-----------| --------|-----------|
-| 1 | ![ICON_1](./img/icon_1.png) | 2 | ![ICON_1](./img/icon_2.png) |
-| 3 | ![ICON_1](./img/icon_3.png) | 4 | ![ICON_1](./img/icon_4.png) |
-| 5 | ![ICON_1](./img/icon_5.png) | 6 | ![ICON_1](./img/icon_6.png) |
-| 7 | ![ICON_1](./img/icon_7.png) | 8 | ![ICON_1](./img/icon_8.png) |
-| 9 | ![ICON_1](./img/icon_9.png) | 10 | ![ICON_1](./img/icon_10.png) |
-| 11 | ![ICON_1](./img/icon_11.png) | 12 | ![ICON_1](./img/icon_12.png) |
-| 13 | ![ICON_1](./img/icon_13.png) | 14 | ![ICON_1](./img/icon_14.png) |
-| 15 | ![ICON_1](./img/icon_15.png) | 16 | ![ICON_1](./img/icon_16.png) |
-| 17 | ![ICON_1](./img/icon_17.png) | |
+| 1 | ![ICON_1](./img/ICON_1.png) | 2 | ![ICON_1](./img/ICON_2.png) |
+| 3 | ![ICON_1](./img/ICON_3.png) | 4 | ![ICON_1](./img/ICON_4.png) |
+| 5 | ![ICON_1](./img/ICON_5.png) | 6 | ![ICON_1](./img/ICON_6.png) |
+| 7 | ![ICON_1](./img/ICON_7.png) | 8 | ![ICON_1](./img/ICON_8.png) |
+| 9 | ![ICON_1](./img/ICON_9.png) | 10 | ![ICON_1](./img/ICON_10.png) |
+| 11 | ![ICON_1](./img/ICON_11.png) | 12 | ![ICON_1](./img/ICON_12.png) |
+| 13 | ![ICON_1](./img/ICON_13.png) | 14 | ![ICON_1](./img/ICON_14.png) |
+| 15 | ![ICON_1](./img/ICON_15.png) | 16 | ![ICON_1](./img/ICON_16.png) |
+| 17 | ![ICON_1](./img/ICON_17.png) | |
 
 > 以上图片均为白色前景，透明背景（为显示效果做了灰色背景处理）
 
@@ -254,7 +254,7 @@
   }
 ~~~
 
-如上述定义，表示将使用图标3，也就是![ICON_1](./img/icon_3.png)
+如上述定义，表示将使用图标3，也就是![ICON_1](./img/ICON_3.png)
 
 
 
