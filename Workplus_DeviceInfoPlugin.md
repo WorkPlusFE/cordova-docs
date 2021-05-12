@@ -56,11 +56,11 @@ function getDeviceInfo(){
 	"device_id":"设备id",
 	"platform":"平台（android/ios）",
 	"domain_id":"域id",
-	"product_version":"workplus当前应用的versionCode",
-	"system_version":"使用的系统版本（ios9 / android6.0 等。。）",
-	"system_model":"使用的手机型号（iphone7 /android sumsang等。。）",
+	"product_version":"workplus当前应用的versionName, 如: 4.11.0",
+	"system_version":"使用的系统版本（ios9 / android6.0 等等）",
+	"system_model":"使用的手机型号（iphone7 /android sumsang 等等）",
 	"channel_id":"应用的包名",
-	"channel_vendor":"Apple or ",
+	"channel_vendor":"Apple or Huawei等等",
  }
 ```
 
