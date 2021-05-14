@@ -19,6 +19,7 @@ pipeline {
             steps {
                 sh 'npm config set registry https://registry.npm.taobao.org'
                 sh 'npm install'
+                sh 'npm install gitbook'
                 sh 'npm run predeploy'
             }
         }
