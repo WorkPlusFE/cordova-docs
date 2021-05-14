@@ -26,7 +26,7 @@ pipeline {
 
         stage("Deploy") {
             steps {
-                sh 'rsync --delete -avz -e ssh ${WORKSPACE}/_book/* root@106.13.212.147:/data/workplus/websites/open.workplus.io/cordova/'
+                sh 'rsync --delete -avz -e ssh ${WORKSPACE}/_book/* root@106.13.212.147:/data/workplus/websites/open.workplus.io/cordova-docs/'
             }
         }
     }
