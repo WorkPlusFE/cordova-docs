@@ -39,6 +39,6 @@
     "gh-pages": "^2.0.1",
     "gitbook-plugin-anchor-navigation-ex": "^1.0.13",
     "moment": "^2.22.2",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
